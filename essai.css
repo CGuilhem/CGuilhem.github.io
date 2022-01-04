@@ -1,0 +1,84 @@
+/*////////////////////////////////////////////////////////////////////////////////////////////////// Medium RSS //////////////////////////////////////////////////////////////////////////////////////////////////*/
+#jsonContent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    padding-top: 50px
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+
+    height: 600px;
+
+    margin-bottom: 50px;
+
+    box-shadow: 8px 8px 12px #aaa;
+    border-radius: 10px;
+}
+
+.article-image {
+    width: 20rem;
+    height: 40%;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.article-button {
+    font-size: 1rem;
+    padding: 12px;
+    
+    color:cornsilk;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #EB6208;
+
+    transition: all 0.75s ease;
+}
+
+.article-button:hover{
+    background-color: #eb6308; 
+    opacity: 0.8;
+}
+
+.medium-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 50px 0 50px 0;
+
+    background-color: #F2F3F4;
+}
+
+.profile-picture {
+    border-radius: 100%;
+}
+
+.medium-title {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.medium-button {
+    padding: 20px;
+    background-color: #EB6208;
+    border: #EB6208 2px solid;
+    border-radius: 4px;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: cornsilk;
+
+    transition: all 0.75s ease;
+}
+
+.medium-button:hover {
+    background-color: #eb6308; 
+    opacity: 0.8;
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////// \Medium RSS //////////////////////////////////////////////////////////////////////////////////////////////////*/
